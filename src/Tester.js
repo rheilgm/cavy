@@ -89,7 +89,7 @@ export default class Tester extends Component {
 
   render() {
     return (
-      <View key={this.state.key} style={{flex: 1}}>
+      <View style={{flex: 1}}>
         {Children.only(this.props.children)}
       </View>
     );
